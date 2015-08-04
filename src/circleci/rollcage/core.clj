@@ -7,7 +7,7 @@
 
 (def endpoint "https://api.rollbar.com/api/1/item/")
 
-(defn- rollbar-frame
+(defn- rollbar-fram
   "Convert a clj-stacktrace stack frame element to the format that the Rollbar
   REST API expects."
   [{:keys [file line] :as frame}]
