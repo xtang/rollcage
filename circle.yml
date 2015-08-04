@@ -3,3 +3,7 @@ test:
     - mkdir $CIRCLE_TEST_REPORTS/lein
   override:
     - lein test-out junit $CIRCLE_TEST_REPORTS/lein/results.xml
+notify:
+  webhooks:
+    # A list of hook hashes, containing the url field
+    - url: http://requestb.in/12qid6q1
