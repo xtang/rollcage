@@ -36,7 +36,7 @@
                              {:method "clojure.lang.Numbers.divide", :filename "Numbers.java", :lineno 156}]}]
         result (client/drop-common-substacks exception)]
     (is (= "core.clj" (-> result second :frames first :filename)))
-    (is (= 3 (-> result second :frames count)))))
+    (is (= 5 (-> result second :frames count)))))
 
 (deftest it-can-parse-exceptions
   (testing "Simple exceptions"
