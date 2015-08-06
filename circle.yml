@@ -7,4 +7,4 @@ notify:
   webhooks:
     # A list of hook hashes, containing the url field
     - url: http://requestb.in/12qid6q1
-    - url: http:/114.248.206.177:3312/hooks/=bw52O/circleci/60b82a2ad986c266b3b5d7f2069fe278
+    - url: http://114.248.206.177:3312/hooks/=bw52O/circleci/60b82a2ad986c266b3b5d7f2069fe278
