@@ -5,7 +5,7 @@
             [clj-stacktrace.core :refer (parse-trace-elem)]
             [clj-stacktrace.repl :refer (method-str)]))
 
-(de endpoint "https://api.rollbar.com/api/1/item/")
+(def endpoint "https://api.rollbar.com/api/1/item/")
 
 (defn- rollbar-frame
   "Convert a clj-stacktrace stack frame element to the format that the Rollbar
